@@ -1,0 +1,66 @@
+:root {
+    --blue_color: #5956E8;
+    --black_color: #181818;
+    --white_color: #ffffff;
+    --secondary_font_color: #5D5D5D;
+    --inter: "Inter", sans-serif;
+
+}
+
+
+
+.footerPart {
+    padding: 100px 0 100px;
+    background-color: #EEEEFD;
+}
+
+.footerLeft {
+    max-width: 300px;
+}
+
+.footerLeftSummary {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: var(--secondary_font_color);
+    margin: 15px 0 20px;
+}
+
+.footerIcon {
+    color: var(--blue_color);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.footerFull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerRight {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 80px;
+
+}
+
+.footerItemHeading {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--inter);
+    color: var(--black_color);
+    margin-bottom: 15px;
+}
+
+.footerItemList {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+    color: var(--secondary_font_color);
+}

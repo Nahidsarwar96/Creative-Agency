@@ -1,0 +1,19 @@
+.teamPart {
+    padding: 0 0 142px;
+}
+
+.tm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.teamBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}

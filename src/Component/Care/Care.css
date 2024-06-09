@@ -1,0 +1,59 @@
+.carePart {
+    padding: 0 0 142px;
+}
+
+.careHeading {
+    width: 603px;
+}
+
+.Cr {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    text-align: start;
+
+}
+
+.CareBottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carebox {
+    max-width: 370px;
+    border-radius: 10px;
+}
+
+.stars {
+    color: rgb(203, 147, 6);
+    display: flex;
+    align-items: center;
+    margin: 30px 0 20px;
+}
+
+.careBoxSummary {
+    max-width: 274px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: var(--secondary_font_color);
+}
+
+.careBoxTitle {
+    margin: 15px 0 3px;
+}
+
+.carebox {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 48px;
+    position: relative;
+
+}
+
+.invited {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

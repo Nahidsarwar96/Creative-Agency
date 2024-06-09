@@ -1,0 +1,47 @@
+.HeaderPart {
+    padding: 34px 0;
+}
+
+.headerFull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.listItem {
+    display: flex;
+    column-gap: 50px;
+
+}
+
+.listItem__word {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--inter);
+    color: var(--black_color);
+}
+
+.listItem__word:hover {
+    color: var(--blue_color);
+    transition: all linear 0.3s;
+}
+
+.HeaderBtn {
+    padding: 13px 24px;
+    border: none;
+    background: var(--blue_color);
+    color: var(--white_color);
+    border-radius: 14px;
+    font-family: var(--inter);
+    font-weight: 500;
+
+}
+
+.HeaderBtn:hover {
+    color: var(--black_color);
+    background: transparent;
+    border: 1px solid var(--secondary_font_color);
+    transition: all linear 0.3s;
+    cursor: pointer;
+}

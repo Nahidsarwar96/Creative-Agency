@@ -1,0 +1,61 @@
+.PortfolioPart {
+    padding: 0 0 100px;
+}
+
+.ph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.portfolioPic {
+    margin-top: 50px;
+}
+
+.portFolioImg {
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+
+.portFolioImg:hover .portfolioOverlay {
+    left: 0;
+    bottom: 0;
+
+}
+
+
+
+.portfolioOverlay {
+    position: absolute;
+    color: var(--white_color);
+    background: var(--blue_color);
+    padding: 40px 25px;
+    width: 230px;
+    font-family: var(--inter);
+    margin-left: 20px;
+    border-radius: 10px;
+    bottom: -2000px;
+    transition: all linear 0.3s;
+}
+
+
+
+.portOverlaySummary {
+    margin-top: 10px;
+
+}
+
+.portfolioPic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}

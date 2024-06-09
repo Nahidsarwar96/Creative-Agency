@@ -1,0 +1,43 @@
+.BannerPart {
+    background: var(--blue_color);
+    padding: 182px 0;
+}
+
+.bannerFull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BannerLeft {
+    max-width: 542px;
+}
+
+.bannerTitle {
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--white_color);
+    font-family: var(--inter);
+
+}
+
+.bannersummary {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white_color);
+    font-family: var(--inter);
+    text-align: justify;
+    margin: 25px 0 30px;
+}
+
+.Btn_Banner {
+    color: var(--blue_color);
+    background-color: var(--white_color);
+}
+
+.Btn_Banner:hover {
+    border: 1px solid var(--white_color);
+    color: var(--white_color);
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
